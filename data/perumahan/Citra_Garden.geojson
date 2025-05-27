@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Citra_Garden",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Perumahan Citra Garden", "FolderPath": "Perumahan Citra Garden.kml", "SymbolID": 0, "AltMode": 0, "Base": 0.0, "Clamped": -1, "Extruded": 0, "Snippet": null, "PopupInfo": null, "Shape_Leng": 0.00213486817, "Shape_Area": 2.0476e-07 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 110.354838553000036, -7.772351865999951, 0.0 ], [ 110.355383126000049, -7.771690113999966, 0.0 ], [ 110.355579619000082, -7.771859952999932, 0.0 ], [ 110.355101060000038, -7.772429952999971, 0.0 ], [ 110.354838553000036, -7.772351865999951, 0.0 ] ] ] ] } }
+]
+}

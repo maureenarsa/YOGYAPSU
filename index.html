@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOGYAPSU</title>
+    <link href="img/logo/logo-kota-yogyakarta.png" rel="icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-search/dist/leaflet-search.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+    <style>
+        /* Memberikan jarak bawah pada konten utama */
+        .container.main-content {
+            margin-bottom: 50px;
+        }
+
+        /* Menyembunyikan elemen dengan class "hidden" */
+        .hidden {
+            display: none;
+        }
+
+        /* Mengatur ukuran dan tampilan peta */
+        #map {
+            height: 500px;
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        /* Mengatur tata letak flex untuk kontainer */
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 5px;
+        }
+
+        /* Mengatur tampilan tombol / button tab */
+        .tab-btn {
+            flex: 1;
+            background-color: #f8f9fa;
+            color: #262626;
+            border: none;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            border-radius: 10px 10px 0 0;
+            min-width: 150px;
+        }
+
+        /* Mengubah warna tombol saat diklik */
+        .tab-btn.clicked {
+            background-color: #085ccc;
+            color: white;
+            border-color: aqua;
+        }
+
+        /* Mengatur tampilan search container */
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        /* Mengatur tampilan search box */
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Mengatur tombol pencarian / search button */
+        .search-button {
+            padding: 10px 15px;
+            margin-left: 5px;
+            background-color: #085ccc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Mengubah warna tombol pencarian / search button saat dihover */
+        .search-button:hover {
+            background-color: #085ccc;
+        }
+
+        /* Styling untuk header tabel */
+        .table thead th {
+            background-color: #085ccc;
+            color: white;
+            font-weight: 600;
+        }
+
+        /* Styling untuk body tabel */
+        .table tbody tr td {
+            color: #262626;
+
+        }
+
+        /* Mengaktifkan scroll horizontal pada tabel */
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        /* Styling untuk daftar dalam accordion pada FAQ */
+        .accordion-body ul li {
+            color: #262626;
+        }
+
+        /* Styling untuk tombol accordion pada FAQ*/
+        .accordion-button {
+            color: #262626;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="#" class="navbar-brand p-0 d-flex align-items-center">
+                    <img src="img/logo/YOGYAPSU_LOGO.png" alt="SIPERKIM Logo" class="img-fluid"
+                        style="max-height: 100px; width: auto;">
+                </a>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <div class="container main-content py-1">
+        <div class="bg-white shadow-lg rounded-2xl p-4">
+            <h4 class="text-center" style="font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 600;">
+                SELAMAT DATANG DI YOGYAPSU</h4>
+            <p class="mb-4 text-center" style="font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 400;">
+                Jelajahi informasi lengkap tentang perumahan dan permukiman yang telah diserahkan ke Pemerintah Kota
+                Yogyakarta!</p>
+
+            <!-- Setting Button -->
+            <div class="flex-container">
+                <button id="petaBtn"
+                    class="tab-btn px-4 py-2 rounded-md transition-colors duration-300 bg-gray-200 text-gray-700 border border-gray-300 clicked"
+                    onclick="showTab('peta', this)">Peta</button>
+                <button id="dataBtn"
+                    class="tab-btn px-4 py-2 rounded-md transition-colors duration-300 bg-gray-200 text-gray-700 border border-gray-300"
+                    onclick="showTab('data', this)">Data Perumahan</button>
+                <button id="syaratBtn"
+                    class="tab-btn px-4 py-2 rounded-md transition-colors duration-300 bg-gray-200 text-gray-700 border border-gray-300"
+                    onclick="showTab('faq', this)">Syarat Pengajuan</button>
+                <button id="alurBtn"
+                    class="tab-btn px-4 py-2 rounded-md transition-colors duration-300 bg-gray-200 text-gray-700 border border-gray-300"
+                    onclick="showTab('alur', this)">Alur Penyerahan</button>
+            </div>
+
+            <!-- Syarat Pengajuan -->
+            <div id="faq" class="tab-content hidden">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button border-0" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Kelengkapan Dokumen Permohonan Penyerahan PSU oleh Developer/Pengembang
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show active"
+                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body rounded">
+                                <ul>
+                                    <li>Fotokopi KTP Permohonan</li>
+                                    <li>Fotokopi Akta Pendirian Perusahaan</li>
+                                    <li>Fotokopi Sertifikat Tanah/Dokumen Kepemilikan Tanah Lainnya/Sertifikat Persil
+                                        Terdekat</li>
+                                    <li>Denah Lokasi Perumahan</li>
+                                    <li>Siteplan/Rekomendasi Sejenis</li>
+                                    <li>PBG atau Perizinan Sejenis</li>
+                                    <li>Salinan SLF**</li>
+                                    <li>Surat Pelepasan Hak atas Tanah**</li>
+                                    <li>Daftar Aset</li>
+                                    <hr>
+                                    <p style="color: #1c22a6; font-weight: 600; font-family: 'Poppins', sans-serif';">Catatan: **Jika Ada</p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Kelengkapan Dokumen Permohonan Serah Terima PSU oleh Warga
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Surat Permohonan</li>
+                                    <li>Daftar dan Spesifikasi Aset</li>
+                                    <li>Denah Lokasi Perumahan</li>
+                                    <li>Berita Acara Kesepakatan Penyerahan PSU oleh Warga</li>
+                                    <li>Surat Kuasa Penunjukan Perwakilan Warga untuk Proses Administrasi Serah Terima
+                                        PSU</li>
+                                    <li>Siteplan</li>
+                                    <li>Sertifikat Persil Terdekat</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fungsi Lokasi/Function Search Location -->
+            <div id="peta" class="tab-content">
+                <div class="search-container">
+                    <input type="text" id="searchInput" class="search-box" placeholder="Cari perumahan...">
+                    <button class="search-button" onclick="searchLocation()">Cari</button>
+                </div>
+                <div id="map-container" class="relative w-full h-96 rounded-lg overflow-hidden border border-gray-300">
+                    <div id="map" class="absolute inset-0"></div>
+                </div>
+            </div>
+
+            <!-- Data perumahan -->
+            <div id="data" class="tab-content hidden">
+                <div class="container bg-white shadow-lg rounded-2xl p-4">
+                    <div class="table-responsive">
+                        <table class="display table table-bordered table-striped w-full">
+                            <thead>
+                                <tr class="bg-gray-200 text-center">
+                                    <th class="p-2">Nama Perumahan</th>
+                                    <th class="p-2">Lokasi</th>
+                                    <th class="p-2">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dataPerumahanBody">
+                                <!-- Data dari GeoJSON akan ditambahkan di sini -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagination text-center mt-4">
+                        <button id="prevPage" class="btn btn-primary">Sebelumnya</button>
+                        <span id="pageRange" class="mx-2">1-10</span>
+                        <button id="nextPage" class="btn btn-primary">Selanjutnya</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alur Penyerahan -->
+            <div id="alur" class="tab-content hidden">
+                <img src="img/alurPenyerahan/5.png" class="img-fluid w-100 rounded-4 shadow-lg" alt="SIPERKIM">
+                <hr>
+                <img src="img/alurPenyerahan/6.png" class="img-fluid w-100 rounded-4 shadow-lg" alt="SIPERKIM">
+            </div>
+
+            <div id="faq" class="tab-content hidden">
+                <div class="accordion" id="accordionExample">
+                    <!-- Accordion items -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Fungsi untuk menampilkan dan menyembunyikan tab yang diklik
+        function showTab(tabId, clickedButton) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById(tabId).classList.remove('hidden');
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('clicked'));
+            clickedButton.classList.add('clicked');
+            if (tabId === 'peta') {
+                setTimeout(() => {
+                    window.map.invalidateSize();
+                }, 300);
+            }
+        }
+
+        // Menyimpan data marker / titik
+        var markerData = [];
+
+        // Fungsi untuk mencari lokasi berdasarkan nama perumahan / data GeoJSON yang digunakan
+        function searchLocation() {
+            let query = document.getElementById("searchInput").value.trim().toLowerCase();
+            if (query) {
+                let found = false;
+                markerData.forEach(item => {
+                    if (item.properties.Nama_Perum.toLowerCase().includes(query)) {
+                        found = true;
+                        let latlng = [item.geometry.coordinates[1], item.geometry.coordinates[0]];
+                        map.setView(latlng, 18);
+                        L.popup()
+                            .setLatLng(latlng)
+                            .setContent(`<b>${item.properties.Nama_Perum}</b><br>Status: ${item.properties.Status}`)
+                            .openOn(map);
+                    }
+                });
+                if (!found) {
+                    alert("Lokasi tidak ditemukan!");
+                }
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            initializeMap();
+            document.querySelectorAll('.tab-content').forEach(el => {
+                if (el.id !== 'peta') {
+                    el.classList.add('hidden');
+                }
+            });
+        });
+
+        // Fungsi untuk inisialisasi tampilan peta
+        function initializeMap() {
+            window.map = L.map('map').setView([-7.771206717141086, 110.35569001484896], 17);
+            window.baseMaps = {
+                "OpenStreetMap": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 22 }).addTo(map),
+                "Carto Light": L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { attribution: '© Carto', maxZoom: 22 }),
+                "Google Satellite": L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', { attribution: '© Google', maxZoom: 22 })
+            };
+
+            // Ikon khusus untuk marker
+            var customIcon = L.icon({
+                iconUrl: 'img/icon/location.png',
+                iconSize: [30, 30],
+                iconAnchor: [15, 15],
+                popUpAnchor: [0, -30]
+            });
+
+            var markers = {}; // Menyimpan marker berdasarkan kategori (kemantren)
+
+            // Ambil data perumahan dari file GeoJson
+            fetch('data/perumahan/dataPerumahan.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Tambahkan data ke tabel
+                    var tbody = document.getElementById('dataPerumahanBody');
+                    data.forEach(item => {
+                        var row = document.createElement('tr');
+                        row.innerHTML = `
+                        <td class="p-2">${item.Nama_Perumahan || '-'}</td>
+                        <td class="p-2">${item.Lokasi || '-'}</td>
+                        <td class="p-2">${item.Status || '-'}</td>
+                    `;
+                        tbody.appendChild(row);
+                    });
+
+                    // Pagination
+                    let currentPage = 1;
+                    const rowsPerPage = 10;
+                    const rows = Array.from(tbody.getElementsByTagName("tr"));
+                    const pageRange = document.getElementById("pageRange");
+                    const searchInput = document.getElementById("searchInput");
+
+                    function displayPage(page, filteredRows = rows) {
+                        tbody.innerHTML = "";
+                        const start = (page - 1) * rowsPerPage;
+                        const end = start + rowsPerPage;
+                        filteredRows.slice(start, end).forEach(row => tbody.appendChild(row));
+                        pageRange.textContent = `${start + 1}-${Math.min(end, filteredRows.length)} dari ${filteredRows.length}`;
+                    }
+
+                    // Navigasi halaman sebelumnya
+                    document.getElementById("prevPage").onclick = function () {
+                        if (currentPage > 1) {
+                            currentPage--;
+                            displayPage(currentPage);
+                        }
+                    };
+
+                    // Navigasi halaman setelahnya
+                    document.getElementById("nextPage").onclick = function () {
+                        if (currentPage * rowsPerPage < rows.length) {
+                            currentPage++;
+                            displayPage(currentPage);
+                        }
+                    };
+
+                    searchInput.addEventListener("input", function () {
+                        const searchTerm = searchInput.value.toLowerCase();
+                        const filteredRows = rows.filter(row =>
+                            row.textContent.toLowerCase().includes(searchTerm)
+                        );
+                        currentPage = 1;
+                        displayPage(currentPage, filteredRows);
+                    });
+
+                    displayPage(currentPage);
+                })
+                .catch(error => console.error("Terjadi kesalahan saat memuat JSON:", error));
+
+            Object.values(markers).forEach(layer => layer.addTo(map));
+
+            // Ambil data batas administrasi YK dari file GeoJson
+            fetch('data/batas/batas-admin-YK.geojson')
+                .then(response => response.json())
+                .then(data => {
+                    L.geoJSON(data, {
+                        style: function (feature) {
+                            return {
+                                color: "brown",
+                                weight: 3,
+                                fillOpacity: 0.1
+                            };
+                        }
+                    }).addTo(map);
+                })
+                .catch(error => console.error("Terjadi kesalahan saat memuat GeoJSON:", error));
+
+            // Ambil beberapa data perumahan dari file GeoJson
+            ['Perumahann', 'Polygon_Perumahan'].forEach(file => {
+                fetch(`data/perumahan/${file}.geojson`)
+                    .then(response => response.json())
+                    .then(data => {
+                        L.geoJSON(data, {
+                            style: function () {
+                                return { color: "blue", weight: 3, fillOpacity: 0.3 };
+                            },
+                            onEachFeature: function (feature, layer) {
+                                if (feature.properties && feature.properties.Name) {
+                                    layer.bindPopup(`<b>Nama Perumahan:</b> ${feature.properties.Name}`);
+                                }
+                            }
+                        }).addTo(map);
+                    })
+                    .catch(error => console.error(`Terjadi kesalahan saat memuat ${file}.geojson:`, error));
+            });
+
+            // Ambil data titik perumahan dari file GeoJson
+            fetch('data/perumahan/dataTitik.geojson')
+                .then(response => response.json())
+                .then(data => {
+                    markerData = data.features; // Simpan data untuk pencarian
+                    L.geoJSON(data, {
+                        pointToLayer: function (feature, latlng) {
+                            return L.marker(latlng, { icon: customIcon });
+                        },
+                        onEachFeature: function (feature, layer) {
+                            if (feature.properties && feature.properties.Nama_Perum) {
+                                layer.bindPopup(`<b>${feature.properties.Nama_Perum}</b><br>Status: ${feature.properties.Status}`);
+                            }
+                            var category = feature.properties.Kemantren;
+                            if (!markers[category]) {
+                                markers[category] = L.layerGroup();
+                            }
+                            markers[category].addLayer(layer);
+                        }
+                    });
+
+                    var layerControl = L.control.layers(window.baseMaps, markers, { collapsed: true }).addTo(map);
+
+                    // Tambahkan semua layer ke peta secara default
+                    Object.values(markers).forEach(layer => layer.addTo(map));
+                })
+                .catch(error => console.error("Terjadi kesalahan saat memuat GeoJSON:", error));
+        }
+    </script>
+
+    <!-- Footer Start -->
+    <!-- Tambahkan Google Fonts di bagian <head> jika belum ada -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <div class="container-fluid footer py-0 wow fadeIn" data-wow-delay="0.2s" 
+    style="font-family: 'Poppins', sans-serif;" id="kontak">
+        <div class="container py-0">
+            <div class="row g-5 align-items-center">
+                <!-- Kolom LifeSure -->
+                <div class="col-md-3">
+                    <div class="footer-item">
+                        <a href="index.html" class="p-0">
+                            <span class="text-white"><strong>DINAS PEKERJAAN UMUM PERUMAHAN DAN KAWASAN
+                                    PERMUKIMAN</strong></span>
+                        </a>
+                        <div class="footer-btn d-flex">
+                            <a class="btn btn-md-square rounded-circle me-3"
+                                href="https://www.facebook.com/humaskotajogja/posts/dinas-pekerjaan-umum-perumahan-dan-kawasan-permukiman-kota-yogyakarta-bersama-de/1126482980854783/"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-md-square rounded-circle me-3"
+                                href="https://www.youtube.com/@dinaspupkpkotayogyakarta"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-md-square rounded-circle me-3"
+                                href="https://www.instagram.com/dpupkpkotajogja"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-md-square rounded-circle me-0" href="https://pu.jogjakota.go.id"><i
+                                    class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kolom Kontak (Address, Email, Telepon) -->
+                <div class="col-md-3">
+                    <div class="pt-2">
+                        <div class="row g-3">
+                            <!-- Alamat -->
+                            <div class="col-12 d-flex align-items-center">
+                                <a class="d-flex justify-content-center align-items-center flex-shrink-0 rounded-circle bg-primary text-white me-3"
+                                    href="https://maps.app.goo.gl/t5pJRudAScFXo9Ff7" target="_blank"
+                                    style="width: 45px; height: 45px; min-width: 45px; min-height: 45px;">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </a>
+                                <a href="https://maps.app.goo.gl/t5pJRudAScFXo9Ff7" target="_blank"
+                                    class="text-white text-decoration-none">
+                                    Jl. Kenari No.56, Muja Muju, Umbulharjo, Yogyakarta, DIY, 55165
+                                </a>
+                            </div>
+                            <!-- Email -->
+                            <div class="col-12 d-flex align-items-center">
+                                <a class="d-flex justify-content-center align-items-center flex-shrink-0 rounded-circle bg-primary text-white me-3"
+                                    href="mailto:puperkim@jogjakota.go.id"
+                                    style="width: 45px; height: 45px; min-width: 45px; min-height: 45px;">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                                <a href="mailto:puperkim@jogjakota.go.id" class="text-white text-decoration-none">
+                                    puperkim@jogjakota.go.id
+                                </a>
+                            </div>
+                            <!-- Telepon -->
+                            <div class="col-12 d-flex align-items-center">
+                                <a class="d-flex justify-content-center align-items-center flex-shrink-0 rounded-circle bg-primary text-white me-3"
+                                    href="tel:+62274515867"
+                                    style="width: 45px; height: 45px; min-width: 45px; min-height: 45px;">
+                                    <i class="fa fa-phone-alt"></i>
+                                </a>
+                                <a href="tel:+62274515867" class="text-white text-decoration-none">
+                                    (0274) 515867
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Kolom Google Maps (Lebih Lebar) -->
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.892296659849!2d110.38845037360183!3d-7.801226077437117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57635e5b33ed%3A0x820f24604a3bca17!2sDinas%20Pekerjaan%20Umum%20Perumahan%20dan%20Kawasan%20Pemukiman%20(%20DPUPKP%20)%20Kota%20Yogyakarta!5e0!3m2!1sid!2sid!4v1739764784527!5m2!1sid!2sid"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="text-center" style="font-family: 'Poppins', sans-serif;">
+                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
+                                class="fas fa-copyright text-light me-2"></i>2025 Pemerintah Kota
+                            Yogyakarta</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+    <!-- Footer End -->
+
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-control-search/dist/leaflet-search.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

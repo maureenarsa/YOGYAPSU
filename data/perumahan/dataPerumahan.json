@@ -1,0 +1,577 @@
+[
+    {
+        "Nama_Perumahan": "Tjokro Riverview",
+        "Lokasi": "Jl. Ngadimulyo, Pakuncen, Wirobrajan",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "De Asmarandana",
+        "Lokasi": "Jl. Sugeng Jeroni No. 77A, Patangpuluhan, Wirobrajan",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Kuantan Regency Wirobrajan",
+        "Lokasi": "Jl. Pandu, RT 039 RW 008, Wirobrajan, Wirobrajan",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Pesona Ontoseno",
+        "Lokasi": "RT 11, RW 3, Wirobrajan, Wirobrajan",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Agatama Regency",
+        "Lokasi": "Jl. Perumahan Agatama Regency, Giwangan, Umbulharjo",
+        "Status": "Serah Terima Sementara"
+    },
+    {
+        "Nama_Perumahan": "Alam Asri Giwangan",
+        "Lokasi": "Jl. Malang Wijoyo, Giwangan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "DM Village Giwangan",
+        "Lokasi": "Jl. Tegalturi, Giwangan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Giwang Pratama Estate",
+        "Lokasi": "RT 18 RW 6 Giwangan, Giwangan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Giwangan Kencana Asri",
+        "Lokasi": "Jl. Panti Wredha, Giwangan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Giwangan Village",
+        "Lokasi": "Malangan, RT 39 RW 13, Giwangan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Kuantan Townhouse Giwangan",
+        "Lokasi": "Jl. Panti Wredha, Giwangan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Malangan Indah",
+        "Lokasi": "Jl. Malangan Indah, RT 38 RW 13, Giwangan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Taman Giwangan Asri 1",
+        "Lokasi": "Gg. Arjuna, Giwangan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Taman Giwangan Asri 2",
+        "Lokasi": "Jl. Giwangan Asri 2, Giwangan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Timoho Asri",
+        "Lokasi": "Gg. Delima, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Timoho Estate, Mujamuju",
+        "Lokasi": "Gg. Tunas Kenari, Jl. Balirejo, RT 85 RW 20, Mujamuju, Umbuharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Mutiara Timoho",
+        "Lokasi": "Jl. Teratai, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Puri Timoho Permai (APMD)",
+        "Lokasi": "Jl. Balirejo, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Riverside",
+        "Lokasi": "Jl. Sidobali, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Asri 1",
+        "Lokasi": "Gg. Tanjung VII, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Asri 2",
+        "Lokasi": "Jl. Timoho Asri II, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Asri 3",
+        "Lokasi": "Jl. Miliran - Jl. Hibrida, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Asri 4",
+        "Lokasi": "Jl. Balirejo, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Griya Laras",
+        "Lokasi": "Jl. Balirejo I, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Mediterania",
+        "Lokasi": "Gg. Delima, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Pratama",
+        "Lokasi": "Gg. Tunas Kenari, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Regency",
+        "Lokasi": "Jl. Kenari, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Residence",
+        "Lokasi": "Jl. Timoho Residence No. 6, Mujamuju, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Batikan Residence",
+        "Lokasi": "Jl. Batikan No. 62, Pandeyan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Berlian Indah",
+        "Lokasi": "Jl. Nitikan Baru, RT 22 RW 6, Pandeyan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Sidikan Asri",
+        "Lokasi": "Jl. Wijaya Mulya, Pandeyan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Pesona Residence Nitikan",
+        "Lokasi": "Jl. Nitikan Baru, Pandeyan, Umbulharjo",
+        "Status": "Serah Terima Sementara"
+    },
+    {
+        "Nama_Perumahan": "Asana Mutiara",
+        "Lokasi": "Jl. Pangeran Wirosobo, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Empire Regency",
+        "Lokasi": "Jl. Sidokabul, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Green Kaira",
+        "Lokasi": "Jl. Ki Ageng Pemanahan, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Nitikan",
+        "Lokasi": "Gg. Nitikan Virgo, Jl. Nitikan Baru, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Kirana Lowanu",
+        "Lokasi": "Jl. Lowanu, RT 1 RW 1, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Kuantan Regency Sorogenen",
+        "Lokasi": "Jl. Sidikan, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Lowanu Avenue",
+        "Lokasi": "Jl. Lowanu, RT 18 RW 5, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Mutiara Lowanu",
+        "Lokasi": "Jl. Lowanu No. 56B, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Nitikan Jaya Residence",
+        "Lokasi": "Jl. Nitikan Baru, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Pondok Permai Nitikan",
+        "Lokasi": "Jl. Nitikan Baru, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Puri Kuantan Wirosaban",
+        "Lokasi": "Jl. Pangeran Wirosobo, RT 17 RW 66, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Purinawa Asri",
+        "Lokasi": "Jl. Nitikan Baru, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Sorosutan Indah",
+        "Lokasi": "Jl. Sawo II, Sorosutan, Sorosuran, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Tjokroningrat Residence",
+        "Lokasi": "Jl. Sidokabul, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Tugu Asri",
+        "Lokasi": "Gg. Cakra Perdana, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Wiro Mulyo Indah",
+        "Lokasi": "Jl. Pangeran Wirosobo, RT 17 RW 58, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Wirosaban Barat",
+        "Lokasi": "Wirosaban, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Wirosaban Baru",
+        "Lokasi": "Jl. Ki Ageng Pemanahan, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Wirosaban Indah",
+        "Lokasi": "Jl. Ki Ageng Pemanahan, Sorosutan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Bona Intan Kusumanegara Town House",
+        "Lokasi": "Jl. Garuda RT 10 RW 2, Tahunan, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Perum Veteran Townhouse",
+        "Lokasi": "Jl. Veteran, Warungboto, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Taman Lucida",
+        "Lokasi": "Gg. Taman Lucida, RT 27 RW 7, Warungboto, Umbulharjo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Bejokarto Permai",
+        "Lokasi": "Jl. Manunggal, Bener, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Bumi Intan Regency",
+        "Lokasi": "Jl. Tata Bumi, Bener, Yogyakarta",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Kuantan Regency 2",
+        "Lokasi": "Jl. Bener, Bener, Yogyakarta",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Pesona Bener Regency",
+        "Lokasi": "Jl. Manunggal, Bener, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Blunyah Indah Residence",
+        "Lokasi": "Jl. Gotong Royong, Blunyahrejo, Karangwaru, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Intan Permai",
+        "Lokasi": "Jl. Griya Intan Permai, Jl. Blunyah Gede, Karangwaru, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Petinggen",
+        "Lokasi": "Jl. Griya Petinggen, Karangwaru, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Citra Garden",
+        "Lokasi": "Jl. Jambon 3, Kricak, Tegalrejo",
+        "Status": "Serah Terima Sementara"
+    },
+    {
+        "Nama_Perumahan": "Griya Tiara Amarta",
+        "Lokasi": "Jl. Jambon 2, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Jambon Asri Residence",
+        "Lokasi": "Jl. Jambon Tengah, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Jambon Indah Residence 1",
+        "Lokasi": "Jl. Jambon 3, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Jambon Permai",
+        "Lokasi": "RT 2 RW 1, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Jatimulyo Baru",
+        "Lokasi": "Jl. Jatimulyo Baru, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Jatimulyo Indah",
+        "Lokasi": "Jl. Jambon 3, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Mulya Asri",
+        "Lokasi": "Jl. Jambon, Gg. Rukun, RT 15 RW 4, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Pesona Alam Hijau",
+        "Lokasi": "Jl. Jambon, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Pondok Intan Permai 1",
+        "Lokasi": "Jl. Jatimulyo, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Pondok Intan Permai 3",
+        "Lokasi": "Jl. Jambon, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Taman Acacia",
+        "Lokasi": "Jl. Jambon Tengah, Kricak, Tegalrejo",
+        "Status": "Serah Terima Sementara"
+    },
+    {
+        "Nama_Perumahan": "Taman Mulia",
+        "Lokasi": "RT 30 RW 7, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "The Jambon Residence",
+        "Lokasi": "Jl. Jambon 3, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Villa Century",
+        "Lokasi": "Jl. Jatimulyo, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Villa Jambon",
+        "Lokasi": "Jl. Villa Jambon, Jl. Jambon 3, Kricak, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Cokro Regency",
+        "Lokasi": "Jl. HOS Cokroaminoto, Tegalrejo, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Gradara Pratama Residence",
+        "Lokasi": "Jl. Indraprasta, Tegalrejo, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Pesona Kuantan Tegalrejo",
+        "Lokasi": "Gg. Kamboja, Soragan, Tegalrejo, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Tjokro Heritage",
+        "Lokasi": "Gg. Rajawali, Tegalrejo, Tegalrejo",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Bumi Madani Asri",
+        "Lokasi": "Jl. Tritunggal III, No. 1040, RT 54 RW 14, Brontokusuman, Mergangsan",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Green House",
+        "Lokasi": "Jl. Harmoni Raya, Brontokusuman, Mergangsan",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Indraloka",
+        "Lokasi": "Jl. Kalijaga, Brontokusuman, Mergangsan",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Karanganyar Asri",
+        "Lokasi": "Jl. Harmoni Raya, RT 83 RW 17, Brontokusuman, Mergangsan",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Cluster Triastana Tamansiswa",
+        "Lokasi": "Gg. Sayutiman, Wirogunan, Mergangsan",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Taman Siswa Indah",
+        "Lokasi": "RT 77 RW 07, Surokarsan, Wirogunan, Mergangsan",
+        "Status": "Serah Terima Sementara"
+    },
+    {
+        "Nama_Perumahan": "Kuta Kuna",
+        "Lokasi": "Jl. Dongkelan Barat, Gedongkiwo, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Keldongkiron Permai",
+        "Lokasi": "Jl. Dongkelan, Gedongkiwo, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Puri Dukuh Asri",
+        "Lokasi": "Gg. Windudipura, Jl. Bantul, RT 80 RW 17, Gedongkiwo, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Taman Suryowijayan",
+        "Lokasi": "Jl. Suryowijayan, RT 19 RW 5, Gedongkiwo, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Awana Town",
+        "Lokasi": "Jl. Mayjend Sutoyo, Mantrijeron, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Alam Suryo Pratama",
+        "Lokasi": "Jl. Griya Surya Asri 2, Suryodiningratan, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Mandiri 2",
+        "Lokasi": "Jl. Minggiran, Minggiran, Suryodiningratan, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Minggiran",
+        "Lokasi": "Jl. Minggiran, Minggiran, Suryodiningratan, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Suryadiningratan",
+        "Lokasi": "Jl. Suryodiningratan 2, Minggiran, Suryodiningratan, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Suryo Asri 1",
+        "Lokasi": "Jl. Griya Surya Asri 1, Suryadiningratan, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Suryo Asri 2",
+        "Lokasi": "Jl. Griya Surya Asri 2, Minggiran, Suryodiningratan, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Nakhiil Residence",
+        "Lokasi": "Jl. Pugeran Timur, Suryodiningratan, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Suryo Garden",
+        "Lokasi": "Jl. Suryodiningratan 2, Minggiran, Suryodiningratan, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Suryo Village",
+        "Lokasi": "Jl. Suryodiningratan 2, Minggiran, Suryodiningratan, Mantrijeron",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Jetis Asri",
+        "Lokasi": "Jl. Jetisharjo, Cokrodiningratan, Jetis",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Griya Timoho Estate, Baciro",
+        "Lokasi": "Jl. Sidomukti, Baciro, Gondokusuman",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Puri Timoho Asri 1",
+        "Lokasi": "Jl. Sidomukti, Baciro, Gondokusuman",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Puri Timoho Asri 2 (Puri Timoho Baru)",
+        "Lokasi": "Jl. Sidomukti, Baciro, Gondokusuman",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Timoho Asri 4",
+        "Lokasi": "Jl. Rukun Pertiwi, Baciro, Gondokusuman",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Terban Sari",
+        "Lokasi": "Jl. DR. Sardjito, Terban, Gondokusuman",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Asana Mutiara 2",
+        "Lokasi": "Jl. Depokan II, Prenggan, Kotagede",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Sendok Indah",
+        "Lokasi": "Jl. P. Romo, Prenggan, Kotagede",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Balekambang",
+        "Lokasi": "Gg. Kendalisodo II. Rejowinangun, Kotagede",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Gedong Kuning Permai",
+        "Lokasi": "Jl. Rejowinangun, Rejowinangun, Kotagede",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Gedongkuning Asri",
+        "Lokasi": "Jl. Rejowinangun, Rejowinangun, Kotagede",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Pilahan Permai",
+        "Lokasi": "Jl. Nyi Ageng Nis, Rejowinangun, Kotagede",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Puri Hegar",
+        "Lokasi": "Jl. Retno Dumilah, Rejowinangun, Kotagede",
+        "Status": "Belum Pengajuan"
+    },
+    {
+        "Nama_Perumahan": "Taman Pilahan Asri",
+        "Lokasi": "Jl. Retno Dumilah, Rejowinangun, Kotagede",
+        "Status": "Belum Pengajuan"
+    }
+]

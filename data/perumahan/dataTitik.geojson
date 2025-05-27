@@ -1,0 +1,1270 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.396008, -7.789194] },
+      "properties": {
+        "Nama_Perum": "Griya Timoho Estate, Baciro",
+        "Alamat": "Jl. Sidomukti",
+        "Kelurahan": "Baciro",
+        "Kemantren": "Gondokusuman",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.396436, -7.788796] },
+      "properties": {
+        "Nama_Perum": "Puri Timoho Asri 1",
+        "Alamat": "Jl. Sidomukti",
+        "Kelurahan": "Baciro",
+        "Kemantren": "Gondokusuman",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.396799, -7.789941] },
+      "properties": {
+        "Nama_Perum": "Puri Timoho Asri 2 (Puri Timoho Baru)",
+        "Alamat": "Jl. Sidomukti",
+        "Kelurahan": "Baciro",
+        "Kemantren": "Gondokusuman",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.395463, -7.791645] },
+      "properties": {
+        "Nama_Perum": "Timoho Asri 4",
+        "Alamat": "Jl. Rukun Pertiwi",
+        "Kelurahan": "Baciro",
+        "Kemantren": "Gondokusuman",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.372642, -7.777287] },
+      "properties": {
+        "Nama_Perum": "Terban Sari",
+        "Alamat": "Jl. DR. Sardjito",
+        "Kelurahan": "Terban",
+        "Kemantren": "Gondokusuman",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.370637, -7.777092] },
+      "properties": {
+        "Nama_Perum": "Jetis Asri",
+        "Alamat": "Jl. Jetisharjo",
+        "Kelurahan": "Cokrodiningratan",
+        "Kemantren": "Jetis",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.396785, -7.818379] },
+      "properties": {
+        "Nama_Perum": "Asana Mutiara 2",
+        "Alamat": "Jl. Depokan II",
+        "Kelurahan": "Prenggan",
+        "Kemantren": "Kotagede",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.395693, -7.821772] },
+      "properties": {
+        "Nama_Perum": "Sendok Indah",
+        "Alamat": "Jl. P. Romo",
+        "Kelurahan": "Prenggan",
+        "Kemantren": "Kotagede",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.400437, -7.819504] },
+      "properties": {
+        "Nama_Perum": "Balekambang",
+        "Alamat": "Gg. Kendalisodo II",
+        "Kelurahan": "Rejowinangun",
+        "Kemantren": "Kotagede",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.399594, -7.810186] },
+      "properties": {
+        "Nama_Perum": "Gedong Kuning Permai",
+        "Alamat": "Jl. Rejowinangun",
+        "Kelurahan": "Rejowinangun",
+        "Kemantren": "Kotagede",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.400166, -7.809208] },
+      "properties": {
+        "Nama_Perum": "Gedongkuning Asri",
+        "Alamat": "Jl. Rejowinangun",
+        "Kelurahan": "Rejowinangun",
+        "Kemantren": "Kotagede",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.400337, -7.813279] },
+      "properties": {
+        "Nama_Perum": "Pilahan Permai",
+        "Alamat": "Jl. Nyi Ageng Nis",
+        "Kelurahan": "Rejowinangun",
+        "Kemantren": "Kotagede",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.397939, -7.815844] },
+      "properties": {
+        "Nama_Perum": "Puri Hegar",
+        "Alamat": "Jl. Retno Dumilah",
+        "Kelurahan": "Rejowinangun",
+        "Kemantren": "Kotagede",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.399577, -7.81133] },
+      "properties": {
+        "Nama_Perum": "Taman Pilahan Asri",
+        "Alamat": "Jl. Retno Dumilah",
+        "Kelurahan": "Rejowinangun",
+        "Kemantren": "Kotagede",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.351935, -7.825464] },
+      "properties": {
+        "Nama_Perum": "Kuta Kuna",
+        "Alamat": "Jl. Dongkelan Barat",
+        "Kelurahan": "Gedingkiwo",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.355823, -7.825621] },
+      "properties": {
+        "Nama_Perum": "Keldongkiron Permai",
+        "Alamat": "Jl. Dongkelan",
+        "Kelurahan": "Gedongkiwo",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.35297, -7.823083] },
+      "properties": {
+        "Nama_Perum": "Puri Dukuh Asri",
+        "Alamat": "Gg. Windudipura, Jl. Bantul, RT 80, RW 17",
+        "Kelurahan": "Gedongkiwo",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.354742, -7.811617] },
+      "properties": {
+        "Nama_Perum": "Taman Suryowijayan",
+        "Alamat": "Jl. Suryowijayan, RT 19, RW 5",
+        "Kelurahan": "Gedongkiwo",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.365489, -7.815883] },
+      "properties": {
+        "Nama_Perum": "Awana Town",
+        "Alamat": "Jl. Mayjend Sutoyo",
+        "Kelurahan": "Mantrijeron",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.356975, -7.819918] },
+      "properties": {
+        "Nama_Perum": "Alam Suryo Pratama",
+        "Alamat": "Jl. Griya Surya Asri 2",
+        "Kelurahan": "Suryodiningratan",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.358738, -7.822457] },
+      "properties": {
+        "Nama_Perum": "Griya Mandiri 2",
+        "Alamat": "Jl. Minggiran, Minggiran",
+        "Kelurahan": "Suryodiningratan",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.356044, -7.822742] },
+      "properties": {
+        "Nama_Perum": "Griya Minggiran",
+        "Alamat": "Jl. Minggiran, Minggiran",
+        "Kelurahan": "Suryodiningratan",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.357209, -7.821111] },
+      "properties": {
+        "Nama_Perum": "Griya Suryadiningratan",
+        "Alamat": "Jl. Suryodiningratan 2, Minggiran",
+        "Kelurahan": "Suryodiningratan",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.357296, -7.825155] },
+      "properties": {
+        "Nama_Perum": "Griya Suryo Asri 1",
+        "Alamat": "Jl. Griya Surya Asri 1",
+        "Kelurahan": "Suryodiningratan",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.357099, -7.820413] },
+      "properties": {
+        "Nama_Perum": "Griya Suryo Asri 2",
+        "Alamat": "Jl. Griya Surya Asri 2, Minggiran",
+        "Kelurahan": "Suryodiningratan",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.35958, -7.816043] },
+      "properties": {
+        "Nama_Perum": "Nakhiil Residence",
+        "Alamat": "Jl. Pugeran Timur",
+        "Kelurahan": "Suryodiningratan",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.358157, -7.821501] },
+      "properties": {
+        "Nama_Perum": "Suryo Garden",
+        "Alamat": "Jl. Suryodiningratan 2, Minggiran",
+        "Kelurahan": "Suryodiningratan",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.358235, -7.821272] },
+      "properties": {
+        "Nama_Perum": "Suryo Village",
+        "Alamat": "Jl. Suryodiningratan 2, Minggiran",
+        "Kelurahan": "Suryodiningratan",
+        "Kemantren": "Mantrijeron",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.374802, -7.8242] },
+      "properties": {
+        "Nama_Perum": "Bumi Madani Asri",
+        "Alamat": "Jl. Tritunggal III No.1040, RT 54, RW 14",
+        "Kelurahan": "Brontokusuman",
+        "Kemantren": "Mergangsan",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.374846, -7.822489] },
+      "properties": {
+        "Nama_Perum": "Green House",
+        "Alamat": "Jl. Harmoni Raya",
+        "Kelurahan": "Brontokusuman",
+        "Kemantren": "Mergangsan",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.373847, -7.821327] },
+      "properties": {
+        "Nama_Perum": "Griya Indraloka",
+        "Alamat": "Jl. Kalijaga",
+        "Kelurahan": "Brontokusuman",
+        "Kemantren": "Mergangsan",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.375118, -7.819661] },
+      "properties": {
+        "Nama_Perum": "Griya Karanganyar Asri",
+        "Alamat": "Jl. Harmoni Raya, RT 83, RW 17",
+        "Kelurahan": "Brontokusuman",
+        "Kemantren": "Mergangsan",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.375779, -7.808357] },
+      "properties": {
+        "Nama_Perum": "Cluster Triastana Tamansiswa",
+        "Alamat": "Gg. Sayutiman",
+        "Kelurahan": "Wirogunan",
+        "Kemantren": "Mergangsan",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.374692, -7.808102] },
+      "properties": {
+        "Nama_Perum": "Taman Siswa Indah",
+        "Alamat": "RT  77 RW 07, Surokarsan",
+        "Kelurahan": "Wirogunan",
+        "Kemantren": "Mergangsan",
+        "Status": "Serah Terima Sementara"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.354538, -7.777837] },
+      "properties": {
+        "Nama_Perum": "Bejokarto Permai",
+        "Alamat": "Jl. Manunggal",
+        "Kelurahan": "Bener",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.356005, -7.781806] },
+      "properties": {
+        "Nama_Perum": "Bumi Intan Regency",
+        "Alamat": "JL. Tata Bumi",
+        "Kelurahan": "Bener",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.35223, -7.777765] },
+      "properties": {
+        "Nama_Perum": "Kuantan Regency 2",
+        "Alamat": "Jl. Bener",
+        "Kelurahan": "Bener",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.354259, -7.778832] },
+      "properties": {
+        "Nama_Perum": "Pesona Bener Regency",
+        "Alamat": "Jl. Manunggal",
+        "Kelurahan": "Bener",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.366892, -7.771734] },
+      "properties": {
+        "Nama_Perum": "Blunyah Indah Residence",
+        "Alamat": "Jl. Gotong Royong, Blunyahrejo",
+        "Kelurahan": "Karangwaru",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.364705, -7.769619] },
+      "properties": {
+        "Nama_Perum": "Griya Intan Permai",
+        "Alamat": "Jl. Griya Intan Permai, Jl. Blunyah Gede",
+        "Kelurahan": "Karangwaru",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.366581, -7.773319] },
+      "properties": {
+        "Nama_Perum": "Griya Petinggen",
+        "Alamat": "Jl. Griya Petinggen",
+        "Kelurahan": "Karangwaru",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.35511, -7.772213] },
+      "properties": {
+        "Nama_Perum": "Citra Garden",
+        "Alamat": "Jl. Jambon 3",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Serah Terima Sementara"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.355791, -7.772035] },
+      "properties": {
+        "Nama_Perum": "Griya Tiara Amarta",
+        "Alamat": "Jl. Jambon 2",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.354404, -7.77063] },
+      "properties": {
+        "Nama_Perum": "Jambon Asri Residence",
+        "Alamat": "Jl. Jambon tengah",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.355503, -7.770997] },
+      "properties": {
+        "Nama_Perum": "Jambon Indah Residence 1",
+        "Alamat": "Jl. Jambon 3",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.355749, -7.769118] },
+      "properties": {
+        "Nama_Perum": "Jambon Permai",
+        "Alamat": "RT 2, RW 1",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.355123, -7.775967] },
+      "properties": {
+        "Nama_Perum": "Jatimulyo Baru",
+        "Alamat": "Jl. Jatimulyo Baru",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.355966, -7.770848] },
+      "properties": {
+        "Nama_Perum": "Jatimulyo indah",
+        "Alamat": "Jl. Jambon 3",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.359947, -7.771574] },
+      "properties": {
+        "Nama_Perum": "Mulya Asri",
+        "Alamat": "Jl. Jambon, Gg. Rukun, RT 15, RW 4",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.353568, -7.767229] },
+      "properties": {
+        "Nama_Perum": "Pesona Alam Hijau 2",
+        "Alamat": "Jl. Jambon",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.356715, -7.769879] },
+      "properties": {
+        "Nama_Perum": "Pondok Intan Permai 1",
+        "Alamat": "Jl. Jatimulyo",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.353984, -7.768402] },
+      "properties": {
+        "Nama_Perum": "Pondok Intan Permai 3",
+        "Alamat": "Jl. Jambon",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.354777, -7.770262] },
+      "properties": {
+        "Nama_Perum": "Taman Acacia",
+        "Alamat": "Jl. Jambon tengah",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Serah Terima Sementara"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.359764, -7.776287] },
+      "properties": {
+        "Nama_Perum": "Taman Mulia",
+        "Alamat": "RT 30, RW 7",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.355226, -7.771453] },
+      "properties": {
+        "Nama_Perum": "The Jambon Residence",
+        "Alamat": "Jl. Jambon 3",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.356776, -7.771404] },
+      "properties": {
+        "Nama_Perum": "Villa Century",
+        "Alamat": "Jl. Jatimulyo",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.356783, -7.77081] },
+      "properties": {
+        "Nama_Perum": "Villa Jambon",
+        "Alamat": "Jl. Villa Jambon, Jl. Jambon 3",
+        "Kelurahan": "Kricak",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.35399, -7.787574] },
+      "properties": {
+        "Nama_Perum": "Cokro Regency",
+        "Alamat": "Jl. HOS Cokroaminoto",
+        "Kelurahan": "Tegalrejo",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.351621, -7.789244] },
+      "properties": {
+        "Nama_Perum": "Gradara Pratama Residence",
+        "Alamat": "Jl. Indraprasta",
+        "Kelurahan": "Tegalrejo",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.350729, -7.784148] },
+      "properties": {
+        "Nama_Perum": "Pesona Kuantan Tegalrejo",
+        "Alamat": "Gg. Kamboja, Soragan",
+        "Kelurahan": "Tegalrejo",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.35427, -7.787316] },
+      "properties": {
+        "Nama_Perum": "Tjokro Heritage",
+        "Alamat": "Gg. Rajawali",
+        "Kelurahan": "Tegalrejo",
+        "Kemantren": "Tegalrejo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.39117, -7.831259] },
+      "properties": {
+        "Nama_Perum": "Agatama Regency",
+        "Alamat": "Jl. Perumahan Agatama Regency",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Serah Terima Sementara"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.38819, -7.836017] },
+      "properties": {
+        "Nama_Perum": "Alam Asri Giwangan",
+        "Alamat": "Jl. Malang Wijoyo",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.388435, -7.826313] },
+      "properties": {
+        "Nama_Perum": "DM Village Giwangan",
+        "Alamat": "Jl. Tegalturi",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.392032, -7.831661] },
+      "properties": {
+        "Nama_Perum": "Giwang Pratama Estate",
+        "Alamat": "RT 18 RW 6 Giwangan",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.39099, -7.828063] },
+      "properties": {
+        "Nama_Perum": "Giwangan Kencana Asri",
+        "Alamat": "Jl. Panti Wredha",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.38911, -7.839732] },
+      "properties": {
+        "Nama_Perum": "Giwangan Village",
+        "Alamat": "Malangan  ,RT 39, RW 13",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.390795, -7.82773] },
+      "properties": {
+        "Nama_Perum": "Kuantan Townhouse Giwangan",
+        "Alamat": "Jl. Panti Wredha",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.388689, -7.835693] },
+      "properties": {
+        "Nama_Perum": "Malangan Indah",
+        "Alamat": "Jl. Malangan Indah, RT 38/ RW 13",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.386872, -7.821231] },
+      "properties": {
+        "Nama_Perum": "Taman Giwangan Asri 1",
+        "Alamat": "Gg. Arjuna",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.389773, -7.838137] },
+      "properties": {
+        "Nama_Perum": "Taman Giwangan Asri 2",
+        "Alamat": "Jl. Giwangan Asri 2",
+        "Kelurahan": "Giwangan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.390261, -7.796882] },
+      "properties": {
+        "Nama_Perum": "Griya Timoho Asri",
+        "Alamat": "Gg. Delima",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.393371, -7.797966] },
+      "properties": {
+        "Nama_Perum": "Griya Timoho Estate, Mujamuju",
+        "Alamat": "Gg. Tunas Kenari, Jl. Balirejo, RT 85, RW 20",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.390282, -7.793602] },
+      "properties": {
+        "Nama_Perum": "Mutiara Timoho",
+        "Alamat": "jl. Teratai",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.394171, -7.796156] },
+      "properties": {
+        "Nama_Perum": "Puri Timoho Permai (APMD)",
+        "Alamat": "Jl. Balirejo",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.397888, -7.800825] },
+      "properties": {
+        "Nama_Perum": "Riverside",
+        "Alamat": "Jl. Sidobali",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.391111, -7.797557] },
+      "properties": {
+        "Nama_Perum": "Timoho Asri 1",
+        "Alamat": "Gg. Tanjung VII",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.389471, -7.797099] },
+      "properties": {
+        "Nama_Perum": "Timoho Asri 2",
+        "Alamat": "Jl. Timoho Asri II",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.389735, -7.800459] },
+      "properties": {
+        "Nama_Perum": "Timoho Asri 3",
+        "Alamat": "Jl. Miliran - Jl. Hibrida",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.394365, -7.798802] },
+      "properties": {
+        "Nama_Perum": "Timoho Asri 5",
+        "Alamat": "Jl. Balirejo",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.397051, -7.798661] },
+      "properties": {
+        "Nama_Perum": "Timoho Griya Laras",
+        "Alamat": "Jl. Balirejo I",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.390536, -7.796283] },
+      "properties": {
+        "Nama_Perum": "Timoho Mediterania",
+        "Alamat": "Gg. Delima",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.393494, -7.797669] },
+      "properties": {
+        "Nama_Perum": "Timoho Pratama",
+        "Alamat": "Gg. Tunas Kenari",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.391116, -7.798495] },
+      "properties": {
+        "Nama_Perum": "Timoho Regency",
+        "Alamat": "Jl. Kenari",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.394512, -7.798211] },
+      "properties": {
+        "Nama_Perum": "Timoho Residence",
+        "Alamat": "Jl. Timoho Residence No. 6",
+        "Kelurahan": "Mujamuju",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.382721, -7.811883] },
+      "properties": {
+        "Nama_Perum": "Batikan Residence",
+        "Alamat": "Jl.Batikan No.62, Pandeyan, Umbulharjo",
+        "Kelurahan": "Pandeyan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.383506, -7.818394] },
+      "properties": {
+        "Nama_Perum": "Berlian Indah",
+        "Alamat": "Jl. Nitikan Baru ,RT 22, RW 6",
+        "Kelurahan": "Pandeyan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.384097, -7.81829] },
+      "properties": {
+        "Nama_Perum": "Griya Sidikan Asri",
+        "Alamat": "Jl. Wijaya Mulya",
+        "Kelurahan": "Pandeyan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.38363, -7.817269] },
+      "properties": {
+        "Nama_Perum": "Pesona Residence Nitikan",
+        "Alamat": "Jl. Nitikan Baru",
+        "Kelurahan": "Pandeyan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Serah Terima Sementara"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.377579, -7.829485] },
+      "properties": {
+        "Nama_Perum": "Asana Mutiara",
+        "Alamat": "Jl. Pangeran Wirosobo",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.381839, -7.816886] },
+      "properties": {
+        "Nama_Perum": "Empire Regency",
+        "Alamat": "Jl. Sidokabul",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.378963, -7.827374] },
+      "properties": {
+        "Nama_Perum": "Green Kaira",
+        "Alamat": "Jl Ki Ageng Pemanahan",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.382676, -7.82288] },
+      "properties": {
+        "Nama_Perum": "Griya Nitikan",
+        "Alamat": "Gg. Nitikan Virgo, Jl . Nitikan Baru",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.376205, -7.818219] },
+      "properties": {
+        "Nama_Perum": "Kirana Lowanu",
+        "Alamat": "Jl. Lowanu , RT 1 RW 1",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.384581, -7.819861] },
+      "properties": {
+        "Nama_Perum": "Kuantan Regency Sorogenen",
+        "Alamat": "Jl. Sidikan",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.377231, -7.820604] },
+      "properties": {
+        "Nama_Perum": "Lowanu Avenue",
+        "Alamat": "Jl.Lowanu, RT 18 RW 5",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.376976, -7.820954] },
+      "properties": {
+        "Nama_Perum": "Mutiara Lowanu",
+        "Alamat": "Jl. Lowanu No 56B",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.383198, -7.819773] },
+      "properties": {
+        "Nama_Perum": "Nitikan Jaya Residence",
+        "Alamat": "Jl. Nitikan Baru",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.383171, -7.820067] },
+      "properties": {
+        "Nama_Perum": "Pondok Permai Nitikan",
+        "Alamat": "Jl. Nitikan Baru",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.377156, -7.82923] },
+      "properties": {
+        "Nama_Perum": "Puri Kuantan Wirosaban",
+        "Alamat": "Jl. Pangeran Wirosobo, RT 17 RW 66",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.381932, -7.821059] },
+      "properties": {
+        "Nama_Perum": "Purinawa Asri",
+        "Alamat": "Jl. Nitikan Baru",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.37587, -7.823331] },
+      "properties": {
+        "Nama_Perum": "Sorosutan Indah",
+        "Alamat": "Jl. Sawo II, Sorosutan",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.381215, -7.819928] },
+      "properties": {
+        "Nama_Perum": "Tjokroningrat Residence",
+        "Alamat": "Jl. Sidokabul",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.385099, -7.823983] },
+      "properties": {
+        "Nama_Perum": "Tugu Asri",
+        "Alamat": "Gg. Cakra Perdana",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.376702, -7.827227] },
+      "properties": {
+        "Nama_Perum": "Wiro Mulyo Indah",
+        "Alamat": "Jl. Pangeran Wirosobo, RT 17 RW 58",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.375666, -7.82589] },
+      "properties": {
+        "Nama_Perum": "Wirosaban Barat",
+        "Alamat": "Wirosaban",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.378731, -7.827689] },
+      "properties": {
+        "Nama_Perum": "Wirosaban Baru",
+        "Alamat": "Jl. Ki Ageng Pemanahan",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.379509, -7.828869] },
+      "properties": {
+        "Nama_Perum": "Wirosaban Indah",
+        "Alamat": "Jl. Ki Ageng Pemanahan",
+        "Kelurahan": "Sorosutan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.386081, -7.804536] },
+      "properties": {
+        "Nama_Perum": "Bona Intan Kusumanegara Town House",
+        "Alamat": "Jl. Garuda ,RT 10, RW 2",
+        "Kelurahan": "Tahunan",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.394068, -7.80849] },
+      "properties": {
+        "Nama_Perum": "Perum Veteran Townhouse",
+        "Alamat": "Jl. Veteran",
+        "Kelurahan": "Warungboto",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.390613, -7.808246] },
+      "properties": {
+        "Nama_Perum": "Taman Lucida",
+        "Alamat": "Gg. Taman Lucida, Warungboto, RT 27, RW 7",
+        "Kelurahan": "Warungboto",
+        "Kemantren": "Umbulharjo",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.354648, -7.795423] },
+      "properties": {
+        "Nama_Perum": "Tjokro Riverview",
+        "Alamat": "Jl. Ngadimulyo",
+        "Kelurahan": "Pakuncen",
+        "Kemantren": "Wirobrajan",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.350461, -7.812745] },
+      "properties": {
+        "Nama_Perum": "De Asmarandana",
+        "Alamat": "Jl. Sugeng Jeroni No.77A",
+        "Kelurahan": "Patangpuluhan",
+        "Kemantren": "Wirobrajan",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.351503, -7.806332] },
+      "properties": {
+        "Nama_Perum": "Kuantan Regency Wirobrajan",
+        "Alamat": "Jl. Pandu, RT 039 RW 008",
+        "Kelurahan": "Wirobrajan",
+        "Kemantren": "Wirobrajan",
+        "Status": "Belum Pengajuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [110.350419, -7.802449] },
+      "properties": {
+        "Nama_Perum": "Pesona Ontoseno",
+        "Alamat": "RT 11, RW 3",
+        "Kelurahan": "Wirobrajan",
+        "Kemantren": "Wirobrajan",
+        "Status": "Belum Pengajuan"
+      }
+    }
+  ]
+}
