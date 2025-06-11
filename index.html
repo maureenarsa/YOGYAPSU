@@ -246,6 +246,7 @@
                                     <th class="p-2">Nama Perumahan</th>
                                     <th class="p-2">Lokasi</th>
                                     <th class="p-2">Status</th>
+                                    <th class="p-2">Tahun Pembangunan</th>
                                 </tr>
                             </thead>
                             <tbody id="dataPerumahanBody">
@@ -263,9 +264,9 @@
 
             <!-- Alur Penyerahan -->
             <div id="alur" class="tab-content hidden">
-                <img src="img/alurPenyerahan/5.png" class="img-fluid w-100 rounded-4 shadow-lg" alt="SIPERKIM">
+                <img src="img/alurPenyerahan/Pengembang.png" class="img-fluid w-100 rounded-4 shadow-lg" alt="SIPERKIM">
                 <hr>
-                <img src="img/alurPenyerahan/6.png" class="img-fluid w-100 rounded-4 shadow-lg" alt="SIPERKIM">
+                <img src="img/alurPenyerahan/Warga.png" class="img-fluid w-100 rounded-4 shadow-lg" alt="SIPERKIM">
             </div>
 
             <div id="faq" class="tab-content hidden">
@@ -343,8 +344,8 @@
 
             var markers = {}; // Menyimpan marker berdasarkan kategori (kemantren)
 
-            // Ambil data perumahan dari file GeoJson
-            fetch('data/perumahan/dataPerumahan.json')
+            // Ambil data perumahan dari file Json
+            fetch('data/perumahan/DataPerumahan.json')
                 .then(response => response.json())
                 .then(data => {
                     // Tambahkan data ke tabel
@@ -355,6 +356,7 @@
                         <td class="p-2">${item.Nama_Perumahan || '-'}</td>
                         <td class="p-2">${item.Lokasi || '-'}</td>
                         <td class="p-2">${item.Status || '-'}</td>
+                        <td class="p-2">${item.Tahun_Pembangunan || '-'}</td>
                     `;
                         tbody.appendChild(row);
                     });
@@ -422,7 +424,7 @@
                 .catch(error => console.error("Terjadi kesalahan saat memuat GeoJSON:", error));
 
             // Ambil beberapa data perumahan dari file GeoJson
-            ['Perumahann', 'Polygon_Perumahan'].forEach(file => {
+            ['Polygon_Perumahan1', 'Polygon_Perumahan2'].forEach(file => {
                 fetch(`data/perumahan/${file}.geojson`)
                     .then(response => response.json())
                     .then(data => {
@@ -441,7 +443,7 @@
             });
 
             // Ambil data titik perumahan dari file GeoJson
-            fetch('data/perumahan/dataTitik.geojson')
+            fetch('data/perumahan/DataTitikPerumahan.geojson')
                 .then(response => response.json())
                 .then(data => {
                     markerData = data.features; // Simpan data untuk pencarian
